@@ -1,0 +1,387 @@
+		@font-face{
+        	font-family: 'PingFang SC Light';
+        	src: url(../font/pingfangxiti.ttf);
+      	}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+/*------------------------top hide menu --------------------------------*/
+
+	    #dd1{
+	    	background-color: #f2f2f2;
+	    	height: 63px;
+	    	max-width: 1920px;
+	    	min-width: 1406px;
+	    	top: -63px;
+	    	position: absolute;
+	    	width: 100%;
+	    	z-index: 999;
+	    }
+	    .dp_wrap{
+	    	float: right;
+	    	position: relative;
+	    	right: 100px;
+	    	top: 21px;
+	    }
+	    .logo_color{
+	    	left: 88px;
+	    	position: relative;
+	    	top: 13px;
+	    }
+	    #black{
+	    	color: #333;
+	    }
+	    .black{
+	    	margin-right: 58px;
+	    }
+	
+/*---------------------dropdown list style----------------------*/
+
+
+
+		#dropdown1{
+				float: right;
+				padding-top: 20px;
+		}
+		.dropdown li{
+	    	list-style: none;
+	    	font-family: 'PingFang SC Light';
+	    	
+	    }
+	    .dropdown a{
+	    	color: #f2f2f2;
+	    	font-size: 14px;
+	    	font-weight: bold;
+	    	text-decoration: none;
+	    }
+	    .dropdown-menu{
+	    	position: absolute;
+	    	}
+
+	    .hx{
+	    	float: left;
+	    	padding-left: 30px;
+	    }
+	    #help{
+	    	margin-right: 58px;
+	    }
+	    #box1{
+	    	position: absolute;
+	    	left: 80px;
+	    	top: 40px;
+	    	background-color: #333;
+	    }
+	    #box1 a,#box2 a{
+	    	font-weight: bold;
+	    	color: #f2f2f2;
+	    }
+	    #box1 li :hover,#box2 li :hover{
+	    	background-color: #444;
+	    }
+	    #box2{
+	    	position: absolute;
+	    	left: 390px;
+	    	top: 40px;
+	    	background-color: #333;
+	    }
+
+
+/*---------------top style --------------------*/
+
+		#logo{
+			background-repeat: no-repeat;
+			background-size: 40%;
+			height: 174px;
+			margin-top: 20px;
+			position: absolute;
+			width: 100px;
+		}
+		#logo img{
+			max-height: 20%;
+			position: absolute;
+		}
+		.topRight{
+			margin: 0px 50px;	
+		}
+		.mainTop{
+			max-width: 1902px;
+			min-width: 1406px;
+			width: 100%;
+			height: 295px;
+		}
+		#mainTitle{
+			font-family: 'PingFang SC Light';
+			font-size: 32px;
+			font-weight: bold;
+			color: #f2f2f2;
+			width: 100px;
+			margin: 0 auto;
+			padding-top: 160px;
+		}
+		
+/*------------------------top hide menu --------------------------------*/
+
+	    #dd1{
+	    	background-color: #f2f2f2;
+	    	height: 63px;
+	    	max-width: 1920px;
+	    	min-width: 1406px;
+	    	top: -63px;
+	    	position: absolute;
+	    	width: 100%;
+	    	z-index: 999;
+	    }
+	    .dp_wrap{
+	    	float: right;
+	    	position: relative;
+	    	right: 100px;
+	    	top: 21px;
+	    }
+	    .logo_color{
+	    	left: 88px;
+	    	position: relative;
+	    	top: 13px;
+	    }
+	    #black{
+	    	color: #333;
+	    }
+	    .black{
+	    	margin-right: 58px;
+	    }
+
+
+/*------------------------------top4 style------------------------------*/
+
+
+
+		.top4{
+			background-color: #f2f2f2;
+			max-width: 1902px;
+			min-width: 1406px;
+			height: 1300px;
+			position: relative;
+			top: -20px;
+			width: 100%;
+		}
+		.top4_wrap{
+			height: 734px;
+			margin: 0 auto;
+			position: relative;
+			top: 96px;
+		}
+		.mainText3{
+			height: 32px;
+			margin-bottom: 80px;
+		}
+		.mainText3 h2{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			text-align: center;
+		}
+		.plan1,.plan2,.plan3{
+			background-color: #fff;
+			display: block;
+			float: left;
+			height: 494px;
+			padding-top: 40px;
+			margin-left: 30px;
+			width: 360px;
+		}
+		.mittsu2{
+			margin: 0 auto;
+			width: 1250px;
+		}
+		.plan1 h3,.plan2 h3,.plan3 h3{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			font-size: 16px;
+			font-weight: bold;
+			position: relative;
+			text-align: center;
+			top: 0px;
+		}
+		.plan1 h4,.plan2 h4,.plan3 h4{
+			color: #e12a2f;
+			font-family: 'PingFang SC Light';
+			font-size: 16px;
+			font-weight: lighter;
+			line-height: 105px;
+			position: relative;
+			text-align: center;
+		}
+		.plan1 h1,.plan2 h1,.plan3 h1{
+			color: #333;
+			font-size: 80px;
+			font-family: 'PingFang SC Light';
+			font-weight: lighter;
+			text-align: center;
+		}
+		.buyPlan1 input[type="button"],.buyPlan2 input[type="button"],.buyPlan3 input[type="button"]{
+			color: #f2f2f2;
+			background: #333333;
+			border: 2px solid #f2f2f2;
+			font-size: 12px;
+			font-family: 'PingFang SC Light';
+			height: 50px;
+			width: 200px;
+		}
+		.buyPlan1,.buyPlan2,.buyPlan3{
+			width: 200px;
+			margin: 0 auto;
+		}
+		.plan1 p,.plan2 p,.plan3 p{
+			color: #888;
+			font-family: 'PingFang SC Light';
+			font-size: 12px;
+			font-weight: bold;
+			line-height: 37px;
+			text-align: center;
+		}
+		.p_wrap{
+			height: 494px;
+		}
+		.fuelUp{
+			margin: 0 auto;
+			margin-top: 80px;
+			width: 120px;
+		}
+		.fuelUp a{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			font-size: 16px;
+			font-weight: bolder;
+			text-decoration: none;
+		}
+		.gray{
+			color: #444;
+			font-family: 'PingFang SC Light';
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0 auto;
+			padding-bottom: 60px;
+			width: 400px;
+		}
+		.fuelUp{
+			background-color: #f2f2f2;
+			height: 314px;
+			width: 1170px;
+		}
+		.fLeft,.fBuy{
+			display: inline-block;
+		}
+		.fLeft{
+			background-color: #f2f2f2;
+			height: 188px;
+			left: 200px;
+			top: 0px;
+			position: relative;
+			width: 488px;
+		}
+		.fBuy{
+			background-color: #fff;
+			bottom: 0;
+			height: 314px;
+			left: 175px;
+			position: relative;
+			width: 360px;
+		}
+		.fTilte{
+			color: #333;
+			line-height: 66px;
+			font-size: 32px;
+			font-family: 'PingFang SC Light';
+			font-weight: 500;
+		}
+		.explan{
+			color: #888;
+			font-family: 'PingFang SC Light';
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 30px;
+		}
+		.fBuy p{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			font-size: 15px;
+			font-weight: bold;
+			text-align: center;
+			padding-top: 56px;
+		}
+		.fBuy h2{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			font-size: 80px;
+			font-weight: lighter;
+			text-align: center;
+		}
+		.buy50g{
+			color: #f2f2f2;
+			background-color: #333;
+			border: none;
+			display: block;
+			height: 50px;
+			margin: 0 auto;
+			width: 200px;
+		}
+
+/*------------------------foot style-------------------------------*/
+
+
+		.foot{
+			bottom: -566px;
+			height: 260px;
+			max-width: 1920px;
+			min-width: 1406px;
+			position: relative;
+			width: 100%;
+			z-index: 99;
+		}
+		.mr{
+			background: cover;
+			background: rgba(0,0,0,0.3);
+			bottom: 0px;
+			height: 260px;
+			max-width: 1920px;
+			min-width: 1406px;
+			position: absolute;
+			width: 100%;
+			z-index: -1;
+		}
+		.service{
+			height: 20px;
+			list-style: none;
+			margin: 0 auto;
+			padding-top: 78px;
+			width: 300px;
+		}
+		.service li{
+			color: #f2f2f2;
+			float: left;
+			font-family: 'PingFang SC Light';
+			font-size: 11px;
+			font-weight: bold;
+			margin-left: 18px;
+		}
+		.service a{
+			color: #f2f2f2;
+			text-align: center;
+			text-decoration: none;
+		}
+		.service :visited{
+			color: #f2f2f2;
+		}
+		.footer{
+			font-weight: bold;
+			height: 20px;
+			margin: 0 auto;
+			width: 400px;
+		}
+		.footer p{
+			color: #f2f2f2;
+			font-family: 'PingFang SC Light';
+			font-size: 11px;
+			padding-top: 75px;
+			text-align: center;
+		}

@@ -1,0 +1,240 @@
+		@font-face{
+        	font-family: 'PingFang SC Light';
+        	src: url(../font/pingfangxiti.ttf);
+      	}
+		body{
+			margin: 0;
+			padding: 0;
+		}
+
+/*------------------------top hide menu --------------------------------*/
+
+	    #dd1{
+	    	background-color: #f2f2f2;
+	    	height: 63px;
+	    	max-width: 1920px;
+	    	min-width: 1406px;
+	    	top: -63px;
+	    	position: absolute;
+	    	width: 100%;
+	    	z-index: 999;
+	    }
+	    .dp_wrap{
+	    	float: right;
+	    	position: relative;
+	    	right: 100px;
+	    	top: 21px;
+	    }
+	    .logo_color{
+	    	left: 88px;
+	    	position: relative;
+	    	top: 13px;
+	    }
+	    #black{
+	    	color: #333;
+	    }
+	    .black{
+	    	margin-right: 58px;
+	    }
+	
+/*---------------------dropdown list style----------------------*/
+
+
+
+		#dropdown1{
+				float: right;
+				padding-top: 20px;
+		}
+		.dropdown li{
+	    	list-style: none;
+	    	font-family: 'PingFang SC Light';
+	    	
+	    }
+	    .dropdown a{
+	    	color: #f2f2f2;
+	    	font-size: 14px;
+	    	font-weight: bold;
+	    	text-decoration: none;
+	    }
+	    .dropdown-menu{
+	    	position: absolute;
+	    	}
+
+	    .hx{
+	    	float: left;
+	    	padding-left: 30px;
+	    }
+	    #help{
+	    	margin-right: 58px;
+	    }
+	    #box1{
+	    	position: absolute;
+	    	left: 80px;
+	    	top: 40px;
+	    	background-color: #333;
+	    }
+	    #box1 a,#box2 a{
+	    	font-weight: bold;
+	    	color: #f2f2f2;
+	    }
+	    #box1 li :hover,#box2 li :hover{
+	    	background-color: #444;
+	    }
+	    #box2{
+	    	position: absolute;
+	    	left: 390px;
+	    	top: 40px;
+	    	background-color: #333;
+	    }
+
+
+/*---------------top style --------------------*/
+
+		#logo{
+			background-repeat: no-repeat;
+			background-size: 40%;
+			height: 174px;
+			margin-top: 20px;
+			position: absolute;
+			width: 100px;
+		}
+		#logo img{
+			max-height: 20%;
+			position: absolute;
+		}
+		.topRight{
+			margin: 0px 50px;	
+		}
+		.mainTop{
+			max-width: 1902px;
+			min-width: 1406px;
+			width: 100%;
+			height: 295px;
+		}
+		#mainTitle{
+			font-family: 'PingFang SC Light';
+			font-size: 32px;
+			font-weight: 400;
+			color: #f2f2f2;
+			width: 300px;
+			margin: 0 auto;
+			padding-top: 160px;
+		}
+		
+/*------------------------top hide menu --------------------------------*/
+
+	    #dd1{
+	    	background-color: #f2f2f2;
+	    	height: 63px;
+	    	max-width: 1920px;
+	    	min-width: 1406px;
+	    	top: -63px;
+	    	position: absolute;
+	    	width: 100%;
+	    	z-index: 999;
+	    }
+	    .dp_wrap{
+	    	float: right;
+	    	position: relative;
+	    	right: 100px;
+	    	top: 21px;
+	    }
+	    .logo_color{
+	    	left: 88px;
+	    	position: relative;
+	    	top: 13px;
+	    }
+	    #black{
+	    	color: #333;
+	    }
+	    .black{
+	    	margin-right: 58px;
+	    }
+
+
+/*-----------------------------mid content-----------------------------*/
+
+		.midContent{
+			background-color: #f2f2f2;
+			max-width: 1920px;
+			min-width: 1406px;
+			width: 100%;
+		}
+		.containter{
+			margin: 0 auto;
+			width: 600px;
+		}
+		p{
+			color: #333;
+			font-family: 'PingFang SC Light';
+			font-size: 20px;
+			font-weight: bold;
+			line-height: 60px;
+			padding-top: 90px;
+			
+		}
+		.midContent a{
+			text-decoration: none;
+		}
+		#last{
+			padding-bottom: 100px;
+		}		
+
+/*------------------------foot style-------------------------------*/
+
+
+		.foot{
+			height: 260px;
+			max-width: 1920px;
+			min-width: 1406px;
+			position: relative;
+			width: 100%;
+			z-index: 99;
+		}
+		.mr{
+			background: cover;
+			background: rgba(0,0,0,0.3);
+			bottom: 0px;
+			height: 260px;
+			max-width: 1920px;
+			min-width: 1406px;
+			position: absolute;
+			width: 100%;
+			z-index: -1;
+		}
+		.service{
+			height: 20px;
+			list-style: none;
+			margin: 0 auto;
+			padding-top: 78px;
+			width: 300px;
+		}
+		.service li{
+			color: #f2f2f2;
+			float: left;
+			font-family: 'PingFang SC Light';
+			font-size: 11px;
+			font-weight: bold;
+			margin-left: 18px;
+		}
+		.service a{
+			color: #f2f2f2;
+			text-align: center;
+			text-decoration: none;
+		}
+		.service :visited{
+			color: #f2f2f2;
+		}
+		.footer{
+			font-weight: bold;
+			height: 20px;
+			margin: 0 auto;
+			width: 400px;
+		}
+		.footer p{
+			color: #f2f2f2;
+			font-family: 'PingFang SC Light';
+			font-size: 11px;
+			padding-top: 75px;
+			text-align: center;
+		}
